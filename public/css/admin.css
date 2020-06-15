@@ -1,0 +1,28 @@
+div.input-group select.form-control {
+	height: 32px !important;
+}
+.category-list{
+    list-style: none;
+}
+body{
+    min-height: 950px;
+}
+
+.card .thumbnail{
+    position: relative;
+    display: inline-flex;
+}
+.actions{
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: inline-flex;
+    padding: 6px;
+    flex-direction: column;
+    align-items: flex-start;
+}
+ .card .thumbnail .actions span{
+    
+    padding: 6px;
+    margin: 5px 5px;
+}
